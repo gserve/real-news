@@ -21,9 +21,11 @@ const Home = () =>{
           
           <h2>{blog.title}</h2>
           <h3>Written by {blog.author}</h3>
-          <p>{<img src="../images/breakingNews2.gif" alt=' '/>}</p>
+         // <p>{<img src="../images/breakingNews2.gif" alt=' '/>}</p>
+                      
+            <p>{<img src="https://github.com/gserve/real-news/blob/main/public/images/breakingNews2.gif" alt=' '/>}</p>
+
           <a target="_blank" href={blog.link}rel="nofollow noreferrer">Read Article</a>
-          
           
         </div>
 
