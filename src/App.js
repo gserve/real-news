@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import {useState} from 'react';
+import breakingNews2.gif from '../images/breakingNews2.gif'
 
 
 const Home = () =>{
