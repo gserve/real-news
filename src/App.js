@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {useState} from 'react';
-import breakingNews2.gif from 'images/breakingNews2.gif'
 
 
 const Home = () =>{
@@ -22,9 +21,9 @@ const Home = () =>{
           
           <h2>{blog.title}</h2>
           <h3>Written by {blog.author}</h3>
-          <p>{<img src="images/breakingNews2.gif" alt=' '/>}</p>
+          <p>{<img src="images/breakingNews2.gif" alt='https://postimg.cc/Zv89wz3H '/>}</p>
                       
-            <p>{<img src="https://i.postimg.cc/rsbSF8wB/breaking-News2.gif" alt=' '/>}</p>
+          <p>{<img src="https://i.postimg.cc/rsbSF8wB/breaking-News2.gif" alt='https://postimg.cc/Zv89wz3H '/>}</p>
 
           <a target="_blank" href={blog.link}rel="nofollow noreferrer">Read Article</a>
           
