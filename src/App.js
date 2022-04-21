@@ -22,7 +22,7 @@ const Home = () =>{
           
           <h2>{blog.title}</h2>
           <h3>Written by {blog.author}</h3>
-
+          blog.img= 'https://i.postimg.cc/TYvNnHfN/breaking-News2.gif'
           <p>{<img src= {blog.img} alt='https://i.postimg.cc/TYvNnHfN/breaking-News2.gif'/>}</p>
                       
           
