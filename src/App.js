@@ -2,15 +2,14 @@ import React from 'react';
 import './App.css';
 import {useState} from 'react';
 
-
 const Home = () =>{
   const [blogs, setblogs] = useState ([
 
 
-    {title:'Suspect in Brooklyn subway train shooting called in the tip that led to his arrest, sources say - CNN',author:' Brynn Gingras',img:'https://github.com/gserve/real-news/blob/main/src/breakingNews2.gif?raw=true',link:'https://www.cnn.com/2022/04/13/us/brooklyn-subway-shooting-wednesday/index.html'},
+    {title:'Suspect in Brooklyn subway train shooting called in the tip that led to his arrest, sources say - CNN',author:' Brynn Gingras',img:'images/breakingNews2.gif',link:'https://www.cnn.com/2022/04/13/us/brooklyn-subway-shooting-wednesday/index.html'},
 
-    {title:'Russian sailors evacuate warship in the Black Sea after Ukraine attack; U.S. will send another $800 million in weapons to Ukraine - CNBC',author:'Ted Kemp',img:"https://github.com/gserve/real-news/blob/main/src/breakingNews2.gif?raw=true",link:'https://www.cnbc.com/2022/04/13/russia-ukraine-live-updates.html'},
-    {title:'Effort to Remove Marjorie Taylor Greene From Ballot Can Proceed, Judge Says',author:'Thomas L. Friedman',img:"real-news/src/breakingNews2.gif",link:'https://www.nytimes.com/2022/04/18/opinion/china-russia-putin.html'},
+    {title:'Russian sailors evacuate warship in the Black Sea after Ukraine attack; U.S. will send another $800 million in weapons to Ukraine - CNBC',author:'Ted Kemp',img:"images/breakingNews2.gif",link:'https://www.cnbc.com/2022/04/13/russia-ukraine-live-updates.html'},
+    {title:'Effort to Remove Marjorie Taylor Greene From Ballot Can Proceed, Judge Says',author:'Thomas L. Friedman',img:"images/breakingNews2.gif",link:'https://www.nytimes.com/2022/04/18/opinion/china-russia-putin.html'},
 
   ]);
 
